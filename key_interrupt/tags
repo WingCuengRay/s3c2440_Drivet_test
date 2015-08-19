@@ -1,0 +1,32 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+DEVICE_MAJOR	./s3c2440_key.c	45;"	d	file:
+DEVICE_NAME	./s3c2440_key.c	46;"	d	file:
+KERNELDIR	./Makefile	/^KERNELDIR?="~\/work\/system\/transplant\/linux-2.6.22.6"$/;"	m
+Key_Interrupt_type	./s3c2440_key.c	/^struct Key_Interrupt_type$/;"	s	file:
+__attribute_used__	./s3c2440_key.mod.c	/^__attribute_used__$/;"	v	file:
+__this_module	./s3c2440_key.mod.c	/^struct module __this_module$/;"	v	typeref:struct:module
+button_press	./s3c2440_key.c	/^irqreturn_t button_press(int irq, void *dev_id)$/;"	f
+cdev	./s3c2440_key.c	/^    struct cdev cdev;$/;"	m	struct:char_dev	typeref:struct:char_dev::cdev	file:
+char_dev	./s3c2440_key.c	/^struct char_dev$/;"	s	file:
+count	./s3c2440_key.c	/^    int count;$/;"	m	struct:Key_Interrupt_type	file:
+devname	./s3c2440_key.c	/^    const char *devname;$/;"	m	struct:Key_Interrupt_type	file:
+fops	./s3c2440_key.c	/^struct file_operations fops = {$/;"	v	typeref:struct:file_operations
+handler	./s3c2440_key.c	/^    irqreturn_t handler;$/;"	m	struct:Key_Interrupt_type	file:
+has_pressed	./s3c2440_key.c	/^int has_pressed = 0;$/;"	v
+irq	./s3c2440_key.c	/^    unsigned int irq;$/;"	m	struct:Key_Interrupt_type	file:
+irqflags	./s3c2440_key.c	/^    unsigned long irqflags;$/;"	m	struct:Key_Interrupt_type	file:
+key	./s3c2440_key.c	/^struct Key_Interrupt_type key[] = {$/;"	v	typeref:struct:Key_Interrupt_type
+main	./key_test.c	/^int main(int argc,char **argv)$/;"	f
+s3c2440_key_dev	./s3c2440_key.c	/^struct char_dev s3c2440_key_dev;$/;"	v	typeref:struct:char_dev
+s3c2440_key_exit	./s3c2440_key.c	/^module_exit(s3c2440_key_exit);$/;"	v
+s3c2440_key_exit	./s3c2440_key.c	/^static __exit void s3c2440_key_exit(void)$/;"	f	file:
+s3c2440_key_init	./s3c2440_key.c	/^module_init(s3c2440_key_init);$/;"	v
+s3c2440_key_init	./s3c2440_key.c	/^static __init int s3c2440_key_init(void)$/;"	f	file:
+s3c2440_key_open	./s3c2440_key.c	/^int s3c2440_key_open(struct inode *inode, struct file *fs)$/;"	f
+s3c2440_key_read	./s3c2440_key.c	/^ssize_t s3c2440_key_read(struct file *fs,char __user *buff, size_t size, loff_t *offset)$/;"	f
+s3c2440_key_relase	./s3c2440_key.c	/^int s3c2440_key_relase(struct inode *inode, struct file *fs)$/;"	f

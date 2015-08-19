@@ -1,0 +1,1 @@
+cmd_/home/ray/work/Embedded_Linux/Code/driver/leds/s3c2440_leds.ko := arm-linux-ld -EL  -r -o /home/ray/work/Embedded_Linux/Code/driver/leds/s3c2440_leds.ko /home/ray/work/Embedded_Linux/Code/driver/leds/s3c2440_leds.o /home/ray/work/Embedded_Linux/Code/driver/leds/s3c2440_leds.mod.o
